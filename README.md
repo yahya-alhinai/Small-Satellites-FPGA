@@ -1,2 +1,3 @@
 # Small Satellites FPGA
  
+The FPGA team works on making the detector more of a sensor. This involves processing analog signals from the detector and performing several computations to extract information such as energy and time of arrival of the photons detected at the detector. The information gathered is stored on a mass storage device at the FPGA and when possible is transferred to the Flight Computer. The Flight Computer is later responsible for transferring the data to the ground station. The impetus for using an FPGA for processing data is because of the high amount of parallel processing that is required on the satellite. Given the flexibility and adaptability of FPGAs, they are a perfect fit for this application. 
